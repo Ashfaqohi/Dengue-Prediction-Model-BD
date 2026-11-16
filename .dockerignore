@@ -1,0 +1,8 @@
+.git
+.gitignore
+.venv
+.dengue
+__pycache__
+*.pyc
+Notebook
+.DS_Store

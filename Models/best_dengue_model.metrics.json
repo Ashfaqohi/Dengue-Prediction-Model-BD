@@ -1,0 +1,75 @@
+[
+  {
+    "Model": "logistic_regression",
+    "Best_CV_F1": 1.0,
+    "Test_Accuracy": 1.0,
+    "Test_Precision": 1.0,
+    "Test_Recall": 1.0,
+    "Test_F1": 1.0,
+    "ROC_AUC": 1.0,
+    "Best_Params": {
+      "model__C": 0.1,
+      "model__solver": "liblinear"
+    }
+  },
+  {
+    "Model": "random_forest",
+    "Best_CV_F1": 1.0,
+    "Test_Accuracy": 1.0,
+    "Test_Precision": 1.0,
+    "Test_Recall": 1.0,
+    "Test_F1": 1.0,
+    "ROC_AUC": 1.0,
+    "Best_Params": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 1,
+      "model__n_estimators": 200
+    }
+  },
+  {
+    "Model": "svc",
+    "Best_CV_F1": 1.0,
+    "Test_Accuracy": 1.0,
+    "Test_Precision": 1.0,
+    "Test_Recall": 1.0,
+    "Test_F1": 1.0,
+    "ROC_AUC": 1.0,
+    "Best_Params": {
+      "model__C": 0.1,
+      "model__gamma": "scale",
+      "model__kernel": "rbf"
+    }
+  },
+  {
+    "Model": "mlp_classifier",
+    "Best_CV_F1": 0.9988,
+    "Test_Accuracy": 1.0,
+    "Test_Precision": 1.0,
+    "Test_Recall": 1.0,
+    "Test_F1": 1.0,
+    "ROC_AUC": 1.0,
+    "Best_Params": {
+      "model__activation": "relu",
+      "model__alpha": 0.0001,
+      "model__hidden_layer_sizes": [
+        32
+      ],
+      "model__learning_rate_init": 0.001
+    }
+  },
+  {
+    "Model": "gradient_boosting",
+    "Best_CV_F1": 0.9976,
+    "Test_Accuracy": 1.0,
+    "Test_Precision": 1.0,
+    "Test_Recall": 1.0,
+    "Test_F1": 1.0,
+    "ROC_AUC": 1.0,
+    "Best_Params": {
+      "model__learning_rate": 0.05,
+      "model__max_depth": 2,
+      "model__n_estimators": 200,
+      "model__subsample": 0.8
+    }
+  }
+]
